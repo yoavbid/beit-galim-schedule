@@ -234,8 +234,8 @@ function createCalendarEvent(event) {
 
 // Add to Google Calendar
 function addToGoogleCalendar(event) {
-    const startDateTime = `${event.date}T${event.start.replace(':', '')}00`;
-    const endDateTime = `${event.date}T${event.end.replace(':', '')}00`;
+    const startDateTime = `${event.date.replace(/-/g, '')}T${event.start.replace(':', '')}00`;
+    const endDateTime = `${event.date.replace(/-/g, '')}T${event.end.replace(':', '')}00`;
     
     let location = event.venue || '';
     if (event.address) {
