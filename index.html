@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פסטיבל בית גלים ה-15</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="festival-header">
+            <div class="header-content">
+                <h1 id="festival-name">פסטיבל בית גלים ה-15</h1>
+                <p id="festival-location">בת גלים, חיפה</p>
+                <p id="festival-dates">9-11 באוקטובר 2025</p>
+            </div>
+            <div class="wave-decoration">
+                <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0 C150,100 350,0 600,50 C850,100 1050,0 1200,50 L1200,120 L0,120 Z" fill="rgba(255,255,255,0.1)"></path>
+                </svg>
+            </div>
+        </header>
+
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <h2>סינון לפי קטגוריה</h2>
+            <div class="filter-buttons" id="filter-buttons">
+                <button class="filter-btn active" data-category="all">הכל</button>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section class="events-section">
+            <div id="events-container"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
