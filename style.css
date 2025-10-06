@@ -32,28 +32,12 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
-        radial-gradient(circle at center, transparent 30%, rgba(32, 178, 170, 0.95) 70%),
-        repeating-conic-gradient(from 0deg at 50% 50%, 
-            rgba(255, 255, 255, 0.03) 0deg, 
-            rgba(255, 255, 255, 0.08) 22.5deg, 
-            transparent 45deg);
+    background: rgba(255, 255, 255, 0.02);
     pointer-events: none;
 }
 
 .sunburst-decoration {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: repeating-conic-gradient(
-        from 0deg at 50% 50%,
-        rgba(255, 255, 255, 0.05) 0deg,
-        rgba(255, 255, 255, 0.1) 5deg,
-        transparent 10deg
-    );
-    pointer-events: none;
+    display: none;
 }
 
 .header-content {
@@ -93,20 +77,88 @@ body {
     font-size: 2.8rem;
     margin-bottom: 8px;
     font-weight: 700;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
     color: #FFC107;
-    background: linear-gradient(135deg, #FFC107 0%, #FF9800 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    filter: drop-shadow(2px 2px 4px rgba(255, 99, 71, 0.4));
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .festival-header p {
     font-size: 1.2rem;
     margin: 5px 0;
     opacity: 0.95;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Campaign Banner */
+.campaign-banner {
+    background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+    padding: 15px 40px;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.campaign-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.campaign-logo {
+    height: 55px;
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.campaign-logo:hover {
+    transform: scale(1.05);
+}
+
+.campaign-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.campaign-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1565c0;
+}
+
+.campaign-subtitle {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.campaign-button {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(25, 118, 210, 0.3);
+    font-family: inherit;
+}
+
+.campaign-button:hover {
+    background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(25, 118, 210, 0.4);
+}
+
+.campaign-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(25, 118, 210, 0.3);
 }
 
 /* Filter Section */
@@ -436,6 +488,36 @@ body {
 
     body {
         padding: 0;
+    }
+
+    .campaign-banner {
+        padding: 12px 20px;
+    }
+
+    .campaign-link {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .campaign-logo {
+        height: 50px;
+    }
+
+    .campaign-text {
+        text-align: center;
+    }
+
+    .campaign-title {
+        font-size: 1.05rem;
+    }
+
+    .campaign-subtitle {
+        font-size: 0.85rem;
+    }
+
+    .campaign-button {
+        width: 100%;
+        padding: 12px 20px;
     }
 }
 
