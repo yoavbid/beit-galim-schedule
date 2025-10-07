@@ -6,12 +6,12 @@
     "dates": ["2025-10-09", "2025-10-10", "2025-10-11"]
   },
   "events": [
-    {"date":"2025-10-09","start":"10:00","end":"11:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
-    {"date":"2025-10-09","start":"15:00","end":"16:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
-    {"date":"2025-10-10","start":"10:00","end":"11:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
-    {"date":"2025-10-10","start":"15:00","end":"16:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
-    {"date":"2025-10-11","start":"10:00","end":"11:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
-    {"date":"2025-10-11","start":"15:00","end":"16:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
+    {"date":"2025-10-09","start":"10:00","end":"12:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
+    {"date":"2025-10-09","start":"15:00","end":"17:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
+    {"date":"2025-10-10","start":"10:00","end":"12:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
+    {"date":"2025-10-10","start":"15:00","end":"17:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
+    {"date":"2025-10-11","start":"10:00","end":"12:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
+    {"date":"2025-10-11","start":"15:00","end":"17:00","title":"סיורי אדריכלות","category":"tour","venue":"רחבת הרכבל","address":""},
 
     {"date":"2025-10-09","start":"10:00","end":"16:00","title":"קסם בת גלים: כתב החידה של בת גלים","category":"kids_family","venue":"המרכז הקהילתי בת גלים","address":"העלייה השנייה 45"},
     {"date":"2025-10-10","start":"10:00","end":"14:00","title":"קסם בת גלים: כתב החידה של בת גלים","category":"kids_family","venue":"המרכז הקהילתי בת גלים","address":"העלייה השנייה 45"},
